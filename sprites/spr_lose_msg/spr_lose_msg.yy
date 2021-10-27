@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b4c6c41-3795-48e3-b972-21db4b27227e","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b4c6c41-3795-48e3-b972-21db4b27227e","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"LayerId":{"name":"130b422c-f852-4d17-8447-e1a37c087d0c","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_attack_ui","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"resourceVersion":"1.0","name":"0b4c6c41-3795-48e3-b972-21db4b27227e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a2e4aa6d-1230-4699-a614-1b86e0a8e2a9","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a2e4aa6d-1230-4699-a614-1b86e0a8e2a9","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},"LayerId":{"name":"72fc7e5c-4325-40bd-b245-b2761b72f4f2","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_lose_msg","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},"resourceVersion":"1.0","name":"a2e4aa6d-1230-4699-a614-1b86e0a8e2a9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_attack_ui","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},
+    "spriteId": {"name":"spr_lose_msg","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"179cbae6-d74a-45f1-b19e-280c125fcae1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b4c6c41-3795-48e3-b972-21db4b27227e","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1c20f89d-d6be-418a-a5a6-843102f29714","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a2e4aa6d-1230-4699-a614-1b86e0a8e2a9","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_attack_ui","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},
+    "parent": {"name":"spr_lose_msg","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_attack_ui",
+    "name": "spr_lose_msg",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"130b422c-f852-4d17-8447-e1a37c087d0c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"72fc7e5c-4325-40bd-b245-b2761b72f4f2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_attack_ui",
+  "name": "spr_lose_msg",
   "tags": [],
   "resourceType": "GMSprite",
 }

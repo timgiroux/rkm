@@ -5,39 +5,27 @@ function scr_roshambo(player_attack) {
 	// rock     : 0  (ranch)
 	// paper    : 1  (ketchup)
 	// scissors : 2  (mustard)
-	enemy_attack = global.enemy_attack;
 	
+	condiments = [ obj_ranch, obj_ketchup, obj_mustard ]
+	player_attack_obj = condiments[player_attack]
+	enemy_attack_obj = condiments[global.enemy_attack]
 	
-	// draw sprite
-	if(player_attack == 0) {
-		player_attack_spr = spr_ranch;
-	}
-	else if(player_attack == 1) {
-		player_attack_spr = spr_ketchup;
-	}
-	else {
-		player_attack_spr = spr_mustard;
-	}
+	instance_create_layer(206, 224, "attack_objects", player_attack_obj )
+	instance_create_layer(356, 84, "attack_objects", enemy_attack_obj )
 	
-	if(enemy_attack == 0) {
-		enemy_attack_spr = spr_ranch;
-	}
-	else if(enemy_attack == 1) {
-		enemy_attack_spr = spr_ketchup;
-	}
-	else {
-		enemy_attack_spr = spr_mustard;
-	}
-	
-	draw_sprite(player_attack_spr, 1, 256, 384);
-	draw_sprite(enemy_attack_spr, 1, 256, 128);
-	
-	draw_sprite(spr_win_msg, 0, 0, 0);
-	
-	global.player_win = checkwin_roshambo(player_attack, enemy_attack);
+	global.player_win = checkwin_roshambo(player_attack, global.enemy_attack);
 
-	show_debug_message(global.player_win);
-
+	if( global.player_win )
+	{
+		instance_create_layer(0, 0, "win", obj_win_scr );
+		audio_play_sound(snd_win, 0, false);
+	}
+	else
+	{
+		instance_create_layer(0, 0, "win", obj_lose_scr );
+		audio_play_sound(snd_lose, 0, false);
+	}
+	
 	obj_fight_timer.alarm[0] = 100;
 }
 
