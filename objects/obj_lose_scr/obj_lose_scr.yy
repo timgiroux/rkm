@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tiny_tim",
-    "path": "sprites/spr_tiny_tim/spr_tiny_tim.yy",
+    "name": "spr_lose_msg",
+    "path": "sprites/spr_lose_msg/spr_lose_msg.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,11 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":8,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":5,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tiny_tim",
+  "name": "obj_lose_scr",
   "tags": [],
   "resourceType": "GMObject",
 }
