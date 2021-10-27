@@ -17,6 +17,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ranch","path":"objects/obj_ranch/obj_ranch.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":137.0,"y":465.0,"resourceVersion":"1.0","name":"inst_FF140B1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ketchup","path":"objects/obj_ketchup/obj_ketchup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":254.0,"y":451.0,"resourceVersion":"1.0","name":"inst_7ABB224C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_mustard","path":"objects/obj_mustard/obj_mustard.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":382.0,"y":452.0,"resourceVersion":"1.0","name":"inst_2AA5E4FF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_fight_timer","path":"objects/obj_fight_timer/obj_fight_timer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":416.0,"resourceVersion":"1.0","name":"inst_A4D0671","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_fight_tim","path":"sprites/spr_fight_tim/spr_fight_tim.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.25,"scaleY":0.25,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":145.0,"y":256.0,"resourceVersion":"1.0","name":"graphic_DD012C0","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -29,12 +30,13 @@
     {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rm_fight_cave_1/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_FF140B1","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
     {"name":"inst_7ABB224C","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
     {"name":"inst_2AA5E4FF","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
+    {"name":"inst_A4D0671","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
