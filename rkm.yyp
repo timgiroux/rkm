@@ -43,6 +43,7 @@
     {"id":{"name":"snd_prophetic_visions","path":"sounds/snd_prophetic_visions/snd_prophetic_visions.yy",},"order":3,},
     {"id":{"name":"spr_ranch","path":"sprites/spr_ranch/spr_ranch.yy",},"order":9,},
     {"id":{"name":"spr_title_screen","path":"sprites/spr_title_screen/spr_title_screen.yy",},"order":0,},
+    {"id":{"name":"spr_guide","path":"sprites/spr_guide/spr_guide.yy",},"order":16,},
     {"id":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},"order":0,},
   ],
   "Options": [
@@ -88,7 +89,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "rkm",

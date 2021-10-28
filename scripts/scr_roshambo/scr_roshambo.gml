@@ -10,8 +10,8 @@ function scr_roshambo(player_attack) {
 	player_attack_obj = condiments[player_attack]
 	enemy_attack_obj = condiments[global.enemy_attack]
 	
-	instance_create_layer(206, 224, "attack_objects", player_attack_obj )
-	instance_create_layer(356, 84, "attack_objects", enemy_attack_obj )
+	instance_create_layer(226, 224, "attack_objects", player_attack_obj )
+	instance_create_layer(306, 94, "attack_objects", enemy_attack_obj )
 	
 	global.player_win = checkwin_roshambo(player_attack, global.enemy_attack);
 
