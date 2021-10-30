@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 127,
-  "bbox_top": 0,
-  "bbox_bottom": 127,
+  "bbox_left": 378,
+  "bbox_right": 596,
+  "bbox_top": 22,
+  "bbox_bottom": 412,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 128,
+  "width": 720,
+  "height": 540,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c8b1070e-47c8-433b-b08c-b94284caf65b","path":"sprites/spr_mountain/spr_mountain.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c8b1070e-47c8-433b-b08c-b94284caf65b","path":"sprites/spr_mountain/spr_mountain.yy",},"LayerId":{"name":"4f4a475d-88ed-43e2-8aea-6f7fb08f366b","path":"sprites/spr_mountain/spr_mountain.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},"resourceVersion":"1.0","name":"c8b1070e-47c8-433b-b08c-b94284caf65b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f8e43ca0-acf8-46a4-a9f5-bae380fa4a8a","path":"sprites/spr_knife/spr_knife.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f8e43ca0-acf8-46a4-a9f5-bae380fa4a8a","path":"sprites/spr_knife/spr_knife.yy",},"LayerId":{"name":"7afe792a-0265-44ee-846d-6642c3c28068","path":"sprites/spr_knife/spr_knife.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_knife","path":"sprites/spr_knife/spr_knife.yy",},"resourceVersion":"1.0","name":"f8e43ca0-acf8-46a4-a9f5-bae380fa4a8a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},
+    "spriteId": {"name":"spr_knife","path":"sprites/spr_knife/spr_knife.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6ac4fa30-c6e8-4c67-a0aa-0da9b9a8ff42","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c8b1070e-47c8-433b-b08c-b94284caf65b","path":"sprites/spr_mountain/spr_mountain.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"df3a29e9-2dce-4a1f-b9f8-8f457cd26449","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f8e43ca0-acf8-46a4-a9f5-bae380fa4a8a","path":"sprites/spr_knife/spr_knife.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_mountain","path":"sprites/spr_mountain/spr_mountain.yy",},
+    "parent": {"name":"spr_knife","path":"sprites/spr_knife/spr_knife.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_mountain",
+    "name": "spr_knife",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4f4a475d-88ed-43e2-8aea-6f7fb08f366b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7afe792a-0265-44ee-846d-6642c3c28068","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_mountain",
+  "name": "spr_knife",
   "tags": [],
   "resourceType": "GMSprite",
 }

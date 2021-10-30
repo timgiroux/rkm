@@ -26,7 +26,7 @@ function scr_roshambo(player_attack) {
 		audio_play_sound(snd_lose, 0, false);
 	}
 	
-	obj_fight_timer.alarm[0] = 100;
+	obj_fight_timer.alarm[0] = 150;
 }
 
 function end_fight() {

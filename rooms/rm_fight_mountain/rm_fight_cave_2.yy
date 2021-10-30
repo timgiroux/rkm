@@ -24,8 +24,8 @@
     {"assets":[
         {"spriteId":{"name":"spr_fight_tim","path":"sprites/spr_fight_tim/spr_fight_tim.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.35,"scaleY":0.35,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":131.95,"y":247.5,"resourceVersion":"1.0","name":"graphic_DD012C0","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"spr_attack_ui","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_7DE33611","tags":[],"resourceType":"GMRSpriteGraphic",},
-        {"spriteId":{"name":"spr_fork","path":"sprites/spr_fork/spr_fork.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":392.0,"y":142.0,"resourceVersion":"1.0","name":"graphic_6B14C04A","tags":[],"resourceType":"GMRSpriteGraphic",},
         {"spriteId":{"name":"spr_guide","path":"sprites/spr_guide/spr_guide.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_26F46B52","tags":[],"resourceType":"GMRSpriteGraphic",},
+        {"spriteId":{"name":"spr_knife","path":"sprites/spr_knife/spr_knife.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":163.0,"y":39.0,"resourceVersion":"1.0","name":"graphic_195BDDB7","tags":[],"resourceType":"GMRSpriteGraphic",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Assets_2","tags":[],"resourceType":"GMRAssetLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_fight_cave","path":"sprites/spr_fight_cave/spr_fight_cave.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_F4F02E2","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -36,10 +36,10 @@
   "creationCodeFile": "${project_dir}/rooms/rm_fight_cave_1/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_FF140B1","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
-    {"name":"inst_7ABB224C","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
-    {"name":"inst_2AA5E4FF","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
-    {"name":"inst_A4D0671","path":"rooms/rm_fight_cave_1/rm_fight_cave_1.yy",},
+    {"name":"inst_FF140B1","path":"rooms/rm_fight_cave_2/rm_fight_cave_2.yy",},
+    {"name":"inst_7ABB224C","path":"rooms/rm_fight_cave_2/rm_fight_cave_2.yy",},
+    {"name":"inst_2AA5E4FF","path":"rooms/rm_fight_cave_2/rm_fight_cave_2.yy",},
+    {"name":"inst_A4D0671","path":"rooms/rm_fight_cave_2/rm_fight_cave_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -67,7 +67,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "rm_fight_cave_1",
+  "name": "rm_fight_cave_2",
   "tags": [],
   "resourceType": "GMRoom",
 }
