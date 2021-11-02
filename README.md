@@ -19,4 +19,5 @@ Objective: Learn the secret martial art of RKM through trials.
 ## Credits
 
 * Tim Giroux: Title Screen, Level Screen, Character Design, UI Design
+* Joe Domabyl V: Tweening, Win Screen, Code logic contribution
 

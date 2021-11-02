@@ -1,12 +1,10 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_roshambo(player_attack) {
 	
 	// rock     : 0  (ranch)
 	// paper    : 1  (ketchup)
 	// scissors : 2  (mustard)
 	
-	condiments = [ obj_ranch, obj_ketchup, obj_mustard ]
+	condiments = [ obj_static_ranch, obj_static_ketchup, obj_static_mustard ]
 	player_attack_obj = condiments[player_attack]
 	enemy_attack_obj = condiments[global.enemy_attack]
 	
@@ -33,9 +31,9 @@ function end_fight() {
 	if(global.player_win) {
 		global.levels_complete++;
 		if(global.levels_complete == 3) {
-			room_goto(rm_win);
+			TransitionStart(rm_win, seq_slide_in, seq_slide_out);
 		} else {
-			room_goto(rm_mountain);
+			TransitionStart(rm_mountain, seq_slide_in, seq_slide_out);
 		}
 	}
 	else {
