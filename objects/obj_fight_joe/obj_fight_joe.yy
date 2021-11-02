@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_fight_tim",
-    "path": "sprites/spr_fight_tim/spr_fight_tim.yy",
+    "name": "spr_joe",
+    "path": "sprites/spr_joe/spr_joe.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fight_tim",
+  "name": "obj_fight_joe",
   "tags": [],
   "resourceType": "GMObject",
 }

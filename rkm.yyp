@@ -57,6 +57,7 @@
     {"id":{"name":"spr_attack_ui","path":"sprites/spr_attack_ui/spr_attack_ui.yy",},"order":8,},
     {"id":{"name":"snd_up_the_mountain","path":"sounds/snd_up_the_mountain/snd_up_the_mountain.yy",},"order":2,},
     {"id":{"name":"snd_fight_music","path":"sounds/snd_fight_music/snd_fight_music.yy",},"order":1,},
+    {"id":{"name":"obj_fight_joe","path":"objects/obj_fight_joe/obj_fight_joe.yy",},"order":21,},
     {"id":{"name":"spr_lose_msg","path":"sprites/spr_lose_msg/spr_lose_msg.yy",},"order":15,},
     {"id":{"name":"snd_aj_theme","path":"sounds/snd_aj_theme/snd_aj_theme.yy",},"order":9,},
     {"id":{"name":"spr_fight_mountain","path":"sprites/spr_fight_mountain/spr_fight_mountain.yy",},"order":2,},
@@ -148,7 +149,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "rkm",
