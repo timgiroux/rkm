@@ -1,3 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-room_goto(determine_next_room());
+TransitionStart(determine_next_room(), seq_slide_in, seq_slide_out);
